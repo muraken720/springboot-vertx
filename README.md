@@ -1,5 +1,5 @@
 # springboot-vertx
-SpringBoot and Vert.x example using [sqltemplate](https://github.com/cero-t/sqltemplate)
+SpringBoot and Vert.x(3.0.0) example using [sqltemplate](https://github.com/cero-t/sqltemplate)
 
 ## usage
 
