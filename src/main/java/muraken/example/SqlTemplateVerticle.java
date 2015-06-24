@@ -18,7 +18,7 @@ public class SqlTemplateVerticle extends AbstractVerticle {
   @Autowired
   private ObjectMapper jsonMapper;
 
-  public void start() throws JsonProcessingException {
+  public void start() {
     console("start.");
 
     vertx.eventBus().consumer("eb.sqltemplate", message -> {
