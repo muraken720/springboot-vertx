@@ -45,6 +45,5 @@ public class Application {
 
     vertx.deployVerticle(context.getBean(SqlTemplateVerticle.class), new DeploymentOptions().setWorker(true));
     vertx.deployVerticle(context.getBean(HttpServerVerticle.class));
-
   }
 }

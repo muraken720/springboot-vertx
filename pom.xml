@@ -5,7 +5,7 @@
 
     <groupId>muraken.springboot-vertx</groupId>
     <artifactId>springboot-vertx-example</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>springboot-vertx-example</name>
     <description>SpringBoot And Vert.x Example</description>
@@ -43,6 +43,10 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
         <dependency>
             <groupId>ninja.cero.bootiful-sqltemplate</groupId>
             <artifactId>bootiful-sqltemplate-core</artifactId>
